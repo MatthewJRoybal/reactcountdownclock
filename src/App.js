@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import CountdownClock from './countdownClock';
+
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+
+    this.handleFormat = this.handleFormat.bind(this);
+  }
+
+  handleFormat(datetime) {
+    let days = Math.floor((new Date(datetime).getTime())/(1000 * 60 * 60 * 24)); // Milliseconds to Days
+    let hours = new Date(datetime).getHours(); // Hours
+    let minutes = new Date(datetime).getMinutes(); // Minutes
+    let seconds = new Date(datetime).getSeconds(); // And seconds...
+    return days + ' days, ' + hours + ' hrs, ' + minutes + ' minutes, ' + seconds + ' seconds';
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <h3>New Years Countdown 2020 PST</h3>
+        <CountdownClock format={this.handleFormat} />
+      </div>
+    );
+  }
 }
 
 export default App;
