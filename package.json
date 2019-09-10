@@ -12,7 +12,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "release": "git add . && git commit -m \"Updating\" && git push"
+    "release": "git add . && git commit -m \"Updating\" && git push",
+    "predeploy": "npm run build",
+    "deploy": "npm run release && gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,5 +30,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
