@@ -15,8 +15,9 @@
     "eject": "react-scripts eject",
     "release": "git add . && git commit -m \"Updating\" && git push",
     "predeploy": "npm run build",
-    "deploy": "npm run release && gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "https://matthewjroybal.github.io/React-Countdown-Clock",
   "eslintConfig": {
     "extends": "react-app"
   },
