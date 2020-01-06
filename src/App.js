@@ -22,7 +22,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h3>New Years Countdown 2020 PST</h3>
+        <h3>New Years Countdown 2021 PST</h3>
         <CountdownClock format={this.handleFormat} />
       </div>
     );

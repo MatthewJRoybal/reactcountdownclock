@@ -17,7 +17,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://matthewjroybal.github.io/React-Countdown-Clock",
+  "homepage": "https://matthewjroybal.github.io/reactcountdownclock",
   "eslintConfig": {
     "extends": "react-app"
   },

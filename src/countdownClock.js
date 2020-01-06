@@ -10,7 +10,7 @@ class CountdownClock extends React.Component {
 
   componentDidMount() {
     setInterval(() =>  {
-      const end = new Date("Jan 1, 2020 00:00:00").getTime(); // New Years date/time
+      const end = new Date("Jan 1, 2021 00:00:00").getTime(); // New Years date/time
       let now = new Date(); // Current date/time
       const offset = now.getTimezoneOffset() * 60 * 1000; // Timezone comes in minutes...convert to milliseconds
       now = now - offset; // now in local time
