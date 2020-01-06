@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/reactcountdownclock/static/css/main.6fe6ee2b.chunk.css",
-    "main.js": "/reactcountdownclock/static/js/main.5a5776c0.chunk.js",
-    "main.js.map": "/reactcountdownclock/static/js/main.5a5776c0.chunk.js.map",
-    "runtime~main.js": "/reactcountdownclock/static/js/runtime~main.6bec53c3.js",
-    "runtime~main.js.map": "/reactcountdownclock/static/js/runtime~main.6bec53c3.js.map",
-    "static/js/2.7cddf10a.chunk.js": "/reactcountdownclock/static/js/2.7cddf10a.chunk.js",
-    "static/js/2.7cddf10a.chunk.js.map": "/reactcountdownclock/static/js/2.7cddf10a.chunk.js.map",
+    "main.css": "/reactcountdownclock/static/css/main.232b36e9.chunk.css",
+    "main.js": "/reactcountdownclock/static/js/main.8cdc2672.chunk.js",
+    "main.js.map": "/reactcountdownclock/static/js/main.8cdc2672.chunk.js.map",
+    "runtime-main.js": "/reactcountdownclock/static/js/runtime-main.ed12fc86.js",
+    "runtime-main.js.map": "/reactcountdownclock/static/js/runtime-main.ed12fc86.js.map",
+    "static/js/2.53d7cf17.chunk.js": "/reactcountdownclock/static/js/2.53d7cf17.chunk.js",
+    "static/js/2.53d7cf17.chunk.js.map": "/reactcountdownclock/static/js/2.53d7cf17.chunk.js.map",
     "index.html": "/reactcountdownclock/index.html",
-    "precache-manifest.f699431386f184141821982f988b4c3b.js": "/reactcountdownclock/precache-manifest.f699431386f184141821982f988b4c3b.js",
+    "precache-manifest.175bf04adf0a61c666cb75f3383c1bf4.js": "/reactcountdownclock/precache-manifest.175bf04adf0a61c666cb75f3383c1bf4.js",
     "service-worker.js": "/reactcountdownclock/service-worker.js",
-    "static/css/main.6fe6ee2b.chunk.css.map": "/reactcountdownclock/static/css/main.6fe6ee2b.chunk.css.map"
-  }
+    "static/css/main.232b36e9.chunk.css.map": "/reactcountdownclock/static/css/main.232b36e9.chunk.css.map",
+    "static/js/2.53d7cf17.chunk.js.LICENSE": "/reactcountdownclock/static/js/2.53d7cf17.chunk.js.LICENSE",
+    "static/media/index.css": "/reactcountdownclock/static/media/NewYearsEveBackground.59941e15.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed12fc86.js",
+    "static/js/2.53d7cf17.chunk.js",
+    "static/css/main.232b36e9.chunk.css",
+    "static/js/main.8cdc2672.chunk.js"
+  ]
 }
